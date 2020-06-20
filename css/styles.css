@@ -33,7 +33,15 @@ summary {
 }
 
 .col-2 {
-    max-width: 50%;
+    padding: 0;
+}
+
+.side.col.col-2 {
+    width: 33%;
+}
+
+.map-box.col.col-2 {
+    width: 67%;
 }
 
 .side {
@@ -60,11 +68,64 @@ blockquote {
 body {
     height: auto;
     min-height: 95%;
-    font-size: 10px;
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    font-size: 1.5em;
+    font-weight: bold;
+    background: black;
+}
+
+.back-link {
+    display: inline-block;
+    padding: .5em 1em .5em 1em;
+    color: white;
+}
+
+.back-link:hover {
+    color: gold;
+}
+
+.site-footer {
+    background: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.2em;
+    margin: 0em;
+}
+
+#shop-img {
+    display: block;
+    width: 100%;
+}
+
+.side {
+    display: block;
+}
+
+.shops ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-style: normal;
+    display: inline;
+    font-weight: bold;
+}
+
+li {
+    overflow: hidden;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 1em;
 }
